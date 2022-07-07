@@ -60,9 +60,9 @@ function SendMessage() {
             <Container variant="gray" headerMobile>
                 <div className="w-full text-center">
                     <h5 className="text-base md:text-lg xl:text-xl 2xl:text-[22px] 2xl:leading-[30px] text-bluesecondary">Have a new project in mind?</h5>
-                    <p className="w-10/12 md:w-9/12 2xl:w-7/12 mx-auto text-xl md:text-2xl lg:text-[26px] lg:leading-9 xl:text-[28px] xl:leading-9 2xl:text-3xl uppercase text-blueprimary font-semibold">Please you can send message for any question or just say hi to me</p>
+                    <p className="w-full sm:w-10/12 md:w-9/12 2xl:w-7/12 mx-auto text-xl md:text-2xl lg:text-[26px] lg:leading-9 xl:text-[28px] xl:leading-9 2xl:text-3xl uppercase text-blueprimary font-semibold">Please you can send message for any question or just say hi to me</p>
                 </div>
-                <div className="w-full md:w-10/12 lg:w-11/12 xl:w-10/12 md:mx-auto mt-6 p-10 bg-blueprimary rounded">
+                <div className="w-full md:w-10/12 lg:w-11/12 xl:w-10/12 md:mx-auto mt-6 sm:p-10 px-3 py-4 bg-blueprimary rounded">
                     <form className="w-full" onSubmit={sendEmail}>
                         {checkName ? <span className="inline-block text-base mb-1 text-yellow">{checkName}</span> : ''}
                         {checkEmail ? <span className="inline-block text-base mb-1 text-yellow">{checkEmail}</span> : ''}

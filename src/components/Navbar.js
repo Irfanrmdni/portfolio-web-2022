@@ -10,15 +10,15 @@ function Navbar() {
             {/* NAVBAR MOBILE */}
             <nav className="w-full overflow-hidden">
                 {/* TOP BAR */}
-                <div className="fixed top-0 left-0 right-0 h-[50px] md:h-[65px] px-[15px] md:px-5 bg-bluesecondary flex flex-row justify-between items-center z-50 lg:hidden">
-                    <Link to="/" className="text-base md:text-lg font-bold uppercase text-white">irpan ramdani</Link>
+                <div className="fixed top-0 left-0 right-0 h-[45px] sm:h-[50px] md:h-[65px] px-[10px] sm:px-[15px] md:px-5 bg-bluesecondary flex flex-row justify-between items-center z-50 lg:hidden">
+                    <Link to="/" className="text-sm sm:text-base md:text-lg font-bold uppercase text-white">irpan ramdani</Link>
 
                     {toggleMenu === false ? (<button type="submit" onClick={() => setToggleMenu(true)}>
-                        <svg className="w-[25px] h-[25px] md:w-[30px] md:h-[30px]" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg className="w-[24px] sm:w-[25px] h-[24px] sm:h-[25px] md:w-[30px] md:h-[30px]" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 6.25H6.25V0H0V6.25ZM9.375 25H15.625V18.75H9.375V25ZM0 25H6.25V18.75H0V25ZM0 15.625H6.25V9.375H0V15.625ZM9.375 15.625H15.625V9.375H9.375V15.625ZM18.75 0V6.25H25V0H18.75ZM9.375 6.25H15.625V0H9.375V6.25ZM18.75 15.625H25V9.375H18.75V15.625ZM18.75 25H25V18.75H18.75V25Z" fill="white" />
                         </svg>
                     </button>) : (<button type="submit" onClick={() => setToggleMenu(false)}>
-                        <svg className="w-[25px] h-[25px] md:w-[30px] md:h-[30px]" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg className="w-[24px] sm:w-[25px] h-[24px] sm:h-[25px] md:w-[30px] md:h-[30px]" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M25 2.51786L22.4821 0L12.5 9.98214L2.51786 0L0 2.51786L9.98214 12.5L0 22.4821L2.51786 25L12.5 15.0179L22.4821 25L25 22.4821L15.0179 12.5L25 2.51786Z" fill="white" />
                         </svg>
                     </button>)}
@@ -28,10 +28,10 @@ function Navbar() {
             {/* Nav Link */}
             <div className={`w-full h-screen flex fixed z-40 left-0 bg-blueprimary transition-all ease-in duration-300 opacity-0 ${toggleMenu === true ? 'top-0 opacity-100' : '-top-full'}`}>
                 <ul className="w-full m-auto text-center">
-                    <li><a href="/#home" onClick={() => setToggleMenu(!toggleMenu)} className="w-4/12 md:w-3/12 py-[2px] text-2xl md:text-[28px] md:leading-[33px] text-white font-bold tracking-wide uppercase mb-[50px] inline-block hover:bg-yellow hover:text-bluesecondary hover:shadow-md rounded transition duration-150 ease-in">home</a></li>
-                    <li><a href="/#about" onClick={() => setToggleMenu(!toggleMenu)} className="w-4/12 md:w-3/12 py-[2px] text-2xl md:text-[28px] md:leading-[33px] text-white font-bold tracking-wide uppercase mb-[50px] inline-block hover:bg-yellow hover:text-bluesecondary hover:shadow-md rounded transition duration-150 ease-in">about me</a></li>
-                    <li><a href="/#portfolio" onClick={() => setToggleMenu(!toggleMenu)} className="w-4/12 md:w-3/12 py-[2px] text-2xl md:text-[28px] md:leading-[33px] text-white font-bold tracking-wide uppercase mb-[50px] inline-block hover:bg-yellow hover:text-bluesecondary hover:shadow-md rounded transition duration-150 ease-in">portfolio</a></li>
-                    <li><a href="/#contact" onClick={() => setToggleMenu(!toggleMenu)} className="w-4/12 md:w-3/12 py-[2px] text-2xl md:text-[28px] md:leading-[33px] text-white font-bold tracking-wide uppercase inline-block hover:bg-yellow hover:text-bluesecondary hover:shadow-md rounded transition duration-150 ease-in">contact</a></li>
+                    <li><a href="/#home" onClick={() => setToggleMenu(!toggleMenu)} className="w-6/12 sm:w-4/12 md:w-3/12 py-[2px] text-2xl md:text-[28px] md:leading-[33px] text-white font-bold tracking-wide uppercase mb-[50px] inline-block hover:bg-yellow hover:text-bluesecondary hover:shadow-md rounded transition duration-150 ease-in">home</a></li>
+                    <li><a href="/#about" onClick={() => setToggleMenu(!toggleMenu)} className="w-6/12 sm:w-4/12 md:w-3/12 py-[2px] text-2xl md:text-[28px] md:leading-[33px] text-white font-bold tracking-wide uppercase mb-[50px] inline-block hover:bg-yellow hover:text-bluesecondary hover:shadow-md rounded transition duration-150 ease-in">about me</a></li>
+                    <li><a href="/#portfolio" onClick={() => setToggleMenu(!toggleMenu)} className="w-6/12 sm:w-4/12 md:w-3/12 py-[2px] text-2xl md:text-[28px] md:leading-[33px] text-white font-bold tracking-wide uppercase mb-[50px] inline-block hover:bg-yellow hover:text-bluesecondary hover:shadow-md rounded transition duration-150 ease-in">portfolio</a></li>
+                    <li><a href="/#contact" onClick={() => setToggleMenu(!toggleMenu)} className="w-6/12 sm:w-4/12 md:w-3/12 py-[2px] text-2xl md:text-[28px] md:leading-[33px] text-white font-bold tracking-wide uppercase inline-block hover:bg-yellow hover:text-bluesecondary hover:shadow-md rounded transition duration-150 ease-in">contact</a></li>
                 </ul>
             </div>
 

@@ -29,7 +29,7 @@ function Portfolio() {
 
                 <div className="w-full flex md:flex-wrap flex-col md:flex-row items-center justify-center md:justify-between">
                     <div className="w-full md:w-6/12 mb-[30px] md:pr-4 xl:pr-6 2xl:pr-8">
-                        <div className="w-full relative bg-blueprimary px-20 py-8 flex rounded overflow-hidden cursor-pointer item-portfolio">
+                        <div className="w-full relative bg-blueprimary px-20 py-6 sm:py-8 flex rounded overflow-hidden cursor-pointer item-portfolio">
                             <img src="./images/crosson.png" alt="crosson" className="w-full inline-block m-auto" />
                             <a href="https://crosson.netlify.app" rel="noreferrer" target="_blank" className="absolute top-0 left-0 right-0 bottom-0 m-[4%] rounded opacity-0 transition-all duration-150 ease-in" style={{ background: 'rgba(243,202,32,.65)' }}>
                                 <img src="./images/eye.svg" alt="eye" className="relative top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 inline-block w-[50px] h-[50px] xl:w-[60px] xl:h-[60px] opacity-100" />
@@ -50,7 +50,7 @@ function Portfolio() {
                     </div>
 
                     <div className="w-full md:w-6/12 mb-[30px] md:pl-4 xl:pl-6 2xl:pl-8">
-                        <div className="w-full relative bg-blueprimary px-20 py-8 flex rounded overflow-hidden cursor-pointer item-portfolio">
+                        <div className="w-full relative bg-blueprimary px-20 py-6 sm:py-8 flex rounded overflow-hidden cursor-pointer item-portfolio">
                             <img src="./images/trafalgar.png" alt="trafalgar" className="w-full inline-block m-auto" />
                             <a href="https://trafalgar-webpage.netlify.app/" rel="noreferrer" target="_blank" className="absolute top-0 left-0 right-0 bottom-0 m-[4%] rounded opacity-0 transition-all duration-150 ease-in" style={{ background: 'rgba(243,202,32,.65)' }}>
                                 <img src="./images/eye.svg" alt="eye" className="relative top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 inline-block w-[50px] h-[50px] xl:w-[60px] xl:h-[60px] opacity-100" />
@@ -71,7 +71,7 @@ function Portfolio() {
                     </div>
 
                     <div className="w-full md:w-6/12 mb-[30px] md:mb-0 md:pr-4 xl:pr-6 2xl:pr-8">
-                        <div className="w-full relative bg-blueprimary px-20 py-8 flex rounded overflow-hidden cursor-pointer item-portfolio">
+                        <div className="w-full relative bg-blueprimary px-20 py-6 sm:py-8 flex rounded overflow-hidden cursor-pointer item-portfolio">
                             <img src="./images/luxspace.png" alt="luxspace" className="w-full inline-block m-auto" />
                             <a href="https://luxspace-bwa.netlify.app/" rel="noreferrer" target="_blank" className="absolute top-0 left-0 right-0 bottom-0 m-[4%] rounded opacity-0 transition-all duration-150 ease-in" style={{ background: 'rgba(243,202,32,.65)' }}>
                                 <img src="./images/eye.svg" alt="eye" className="relative top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 inline-block w-[50px] h-[50px] xl:w-[60px] xl:h-[60px] opacity-100" />
@@ -92,7 +92,7 @@ function Portfolio() {
                     </div>
 
                     <div className="w-full md:w-6/12 md:pl-4 xl:pl-6 2xl:pl-8">
-                        <div className="w-full relative bg-blueprimary px-20 py-8 flex rounded overflow-hidden cursor-pointer item-portfolio">
+                        <div className="w-full relative bg-blueprimary px-20 py-6 sm:py-8 flex rounded overflow-hidden cursor-pointer item-portfolio">
                             <img src="./images/epictetus.png" alt="epictetus" className="w-full inline-block m-auto" />
                             <a href="https://epictetuse.netlify.app/" rel="noreferrer" target="_blank" className="absolute top-0 left-0 right-0 bottom-0 m-[4%] rounded opacity-0 transition-all duration-150 ease-in" style={{ background: 'rgba(243,202,32,.65)' }}>
                                 <img src="./images/eye.svg" alt="eye" className="relative top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 inline-block w-[50px] h-[50px] xl:w-[60px] xl:h-[60px] opacity-100" />
@@ -114,7 +114,7 @@ function Portfolio() {
                 </div>
 
                 {/* HIRE ME */}
-                <section className="w-full p-[34px] md:p-[45px] xl:py-14 mt-16 rounded bg-bluesecondary">
+                <section className="w-full px-4 py-8 sm:p-[34px] md:p-[45px] xl:py-14 mt-16 rounded bg-bluesecondary">
                     <div className="w-full text-center m-auto">
                         <h3 className="text-[22px] md:text-[26px] xl:text-[28px] 2xl:text-[32px] 2xl:leading-[38px] xl:leading-[33px] leading-[26px] md:leading-[30px] text-blueprimary font-bold">HIRE ME FOR YOUR PROJECT</h3>
                         <p className="text-sm md:text-base xl:text-lg 2xl:text-[22px] 2xl:leading-[26px] text-white capitalize tracking-wide mt-[5px] mb-[25px]">I am available for freelance projects. hire me and get your project done</p>

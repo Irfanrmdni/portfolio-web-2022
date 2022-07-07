@@ -13,8 +13,8 @@ function Header() {
             strings: [
                 'front-end developer',
             ],
-            typeSpeed: 60,
-            backSpeed: 60,
+            typeSpeed: 50,
+            backSpeed: 50,
             loop: true,
             showCursor: false,
         };
@@ -40,13 +40,13 @@ function Header() {
                 <div className="relative z-10 w-full flex flex-col items-center justify-center">
 
                     <div className="w-full md:flex md:flex-row md:items-center md:justify-between">
-                        <div className="w-[180px] md:w-4/12 h-[180px] md:h-full md:order-2 mb-[20px] md:mb-0 md:rounded-md rounded-full mx-auto md:mx-0 bg-blueprimary overflow-hidden">
+                        <div className="w-[160px] sm:w-[180px] md:w-4/12 sm:h-[180px] h-[160px] md:h-full md:order-2 mb-[20px] md:mb-0 md:rounded-md rounded-full mx-auto md:mx-0 bg-blueprimary border-[3px] sm:border-[4px] md:border-none border-white overflow-hidden">
                             <img src="./images/banner-mobile.png" alt="banner" className="w-full inline-block" />
                         </div>
 
                         <div className="w-full md:w-8/12 md:mr-[30px] lg:mr-[40px] 2xl:mr-[60px] flex flex-col items-center md:items-start justify-center text-center md:text-left md:order-1">
-                            <h3 className="text-[22px] md:text-2xl md:mb-[2px] 2xl:mb-1 lg:text-[22px] xl:text-[28px] 2xl:text-[32px] 2xl:leading-[38px] xl:leading-[33px] lg:leading-[26px] sm:leading-[26px] text-blueprimary font-bold capitalize tracking-wide">Hi, i’m irpan ramdani</h3>
-                            <span className="sm:h-[35px] md:h-10 xl:h-[49px] 2xl:h-14 w-auto h-auto text-3xl md:text-[34px] md:leading-[40px] xl:text-[42px] 2xl:text-5xl xl:leading-[49px] text-bluesecondary font-bold uppercase tracking-wide inline-block" ref={el}></span>
+                            <h3 className="text-xl sm:text-[22px] md:text-2xl md:mb-[2px] 2xl:mb-1 lg:text-[22px] xl:text-[28px] 2xl:text-[32px] 2xl:leading-[38px] xl:leading-[33px] lg:leading-[26px] sm:leading-[26px] text-blueprimary font-bold capitalize tracking-wide">Hi, i’m irpan ramdani</h3>
+                            <span className="h-[30px] sm:h-[35px] md:h-10 xl:h-[49px] 2xl:h-14 w-auto text-[26px] leading-[30px] sm:text-3xl md:text-[34px] md:leading-[40px] xl:text-[42px] 2xl:text-5xl xl:leading-[49px] text-bluesecondary font-bold uppercase tracking-wide inline-block" ref={el}></span>
                             <p className="text-base xl:text-lg 2xl:text-[22px] 2xl:leading-[34px] text-bluesecondary tracking-wide mt-[15px] md:mt-[10px] 2xl:mt-5 mb-[30px] 2xl:mb-10">I am a final year student from Sangga Buana Ypkp University. Bandung city, majoring in informatics engineering and I am interested in web development especially as a front end developer. and currently I have experience in developing several website projects for companies</p>
 
                             <div className="flex flex-row items-center justify-center">
@@ -56,7 +56,7 @@ function Header() {
                                     </svg>
                                     Download CV
                                 </a>
-                                <Link to="/message" onClick={refreshPage} className="ml-[30px] lg:ml-[25px] xl:ml-[30px] text-base lg:text-sm xl:text-base 2xl:text-lg text-bluesecondary hover:underline font-medium">
+                                <Link to="/message" onClick={refreshPage} className="ml-[25px] sm:ml-[30px] lg:ml-[25px] xl:ml-[30px] text-base lg:text-sm xl:text-base 2xl:text-lg text-bluesecondary hover:underline font-medium">
                                     Send Message
                                     <svg className="inline-block ml-[5px]" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M11.5556 11.5556H1.44444V1.44444H6.5V0H1.44444C0.642778 0 0 0.65 0 1.44444V11.5556C0 12.35 0.642778 13 1.44444 13H11.5556C12.35 13 13 12.35 13 11.5556V6.5H11.5556V11.5556ZM7.94444 0V1.44444H10.5372L3.43778 8.54389L4.45611 9.56222L11.5556 2.46278V5.05556H13V0H7.94444Z" fill="#112B3C" />
@@ -66,7 +66,7 @@ function Header() {
                         </div>
                     </div>
 
-                    <div className="w-8/12 md:w-6/12 mt-[109px] md:mt-[100px] text-center lg:hidden">
+                    <div className="w-10/12 sm:w-8/12 md:w-6/12 mt-[109px] md:mt-[100px] text-center lg:hidden">
                         <h3 className="text-lg text-bluesecondary font-medium">Get in touch</h3>
 
                         <div className="flex flex-row items-center justify-between mt-[15px]">
